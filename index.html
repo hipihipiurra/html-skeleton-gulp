@@ -2,47 +2,93 @@
 <html lang="pt-BR">
 <head>
 	<meta charset="UTF-8">
-	<meta name="description" content="A Front End base for start your project. Gulp ready!">
+	<meta name="description" content="Skeleton">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- Facebook OG Tags -->
-	<meta property="og:title" content="A Front End base for start your project. Gulp ready!">
-	<meta property="og:type" content="website">
-	<meta property="og:site_name" content="HTML Skeleton - Gulp Version">
-	<meta property="og:url" content="http://samwx.github.io/html-skeleton-gulp/">
-	<meta property="og:image" content="assets/img/gulp.png">
-	<!-- ================ -->
+	<title>Skeleton</title>
 
-	<title>HTML Skeleton - Gulp.js</title>
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	<link rel="stylesheet" href="assets/dist/all.min.css">
+	<link rel="stylesheet" href="assets/dist/style.min.css">
 
-	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
-	<!-- Create HTML 5 elements and fix media queries on Internet Explorer -->
-	<!--[if IE]>
-	<script src="assets/hacks/respond.min.js"></script>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+	<!-- Font aswesome -->
+	<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
 
 </head>
 <body>
 
-<div class="container">
-	<div class="jumbotron">
-		<h1>Hello world!</h1>
-		<p>This is <strong>HTML Skeleton</strong>, a base structure for front-end project working together with <strong><a href="http://gulpjs.com">Gulp.js</a></strong></p>
-		<p><a href="http://samweb.com.br" target="_blank" class="btn btn-success btn-lg">Visit my website!</a></p>
+<header class="jumbotron skeleton-header">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-auto">
+				<h1 class="display-1">Skeleton</h1>
+				<samp class="lead">
+					A html base structure for front-end development, automatized by Gulp.
+				</samp>
+			</div>
+		</div>
 	</div>
+</header>
 
-	<ul class="nav nav-pills">
-		<li><a href="http://twitter.com/samwebdesign" target="_blank">Twitter</a></li>
-		<li><a href="https://plus.google.com/+SamuelMartins/" target="_blank">Google +</a></li>
-		<li><a href="https://github.com/samwx/" target="_blank">Github</a></li>
-	</ul>
+<div class="container">
+	<div class="row">
+		<div class="col-12">
+			<samp>With Skeleton you can:</samp>
+
+			<ul class="list-styled">
+				<li>Store sass variables on <code>_variables.scss</code></li>
+				<li>Simplify all your content stylist with <code>footer.scss</code>, <code>header.scss</code> and <code>content.scss</code></li>
+				<li>Call your scripts just pushing files into the folder <code>/js</code> -- it minifies itself!</li>
+				<li>Call your css just pushing files into the folder <code>/css</code> -- it minifies itself!</li>
+				<li>Use <a href="https://fontawesome.com/icons" target="_blank">Font Awesome</a> icons.</li>
+				<li>Use <a href="https://getbootstrap.com" target="_blank">Bootstrap</a> library for anything.</li>
+			</ul>
+
+		</div>
+	</div>
 </div>
 
-<script src="assets/dist/concat.min.js"></script>
+<footer class="skeleton-footer">
+	<div class="container">
+		<div class="row justify-content-center align-items-center">
+
+			<div class="col-auto">
+				<a href="http://github.com/naweskil" root:--orange target="_blank">
+					<i class="fab fa-github"></i>
+				</a>
+			</div>
+
+			<div class="col-auto">
+				<a href="http://twitter.com/naweskil" target="_blank">
+					<i class="fab fa-twitter"></i>
+				</a>
+			</div>
+
+			<div class="col-auto">
+				<small>This version is a fork of <a href="https://github.com/samwx/html-skeleton-gulp" target="_blank">HTML Skeleton Gulp.js</a> project.</small>
+			</div>
+
+		</div>
+
+		<div class="row justify-content-center align-items-center">
+			<div class="col-auto">
+				<small>Made with <span class="font-danger-color"><i class="fas fa-heart"></i></span> for you</small>
+			</div>
+		</div>
+
+	</div>
+</footer>
+
+<!-- Jquery -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<!-- Bootstrap -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+<!-- Concat scripts -->
+<script src="assets/dist/scripts.min.js"></script>
 
 </body>
 </html>

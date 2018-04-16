@@ -1,0 +1,12 @@
+//
+// You can stylize your header content here
+//
+
+.skeleton {
+	&-header {
+		color: $light-color;
+		background: {
+			color: $primary-color !important;
+		}
+	}
+}

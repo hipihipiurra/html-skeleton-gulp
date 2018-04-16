@@ -1,25 +1,40 @@
 {
   "name": "html-skeleton-gulp",
-  "version": "0.0.1",
-  "description": "A base to start your front-end project using Gulp.js",
-  "homepage": "http://samweb.com.br",
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/samwx/html-skeleton-gulp"
-  },
-  "engines": {
-    "node": "0.8.x",
-    "npm": "1.1.x"
+  "version": "1.0.0",
+  "description": "A starter skeleton to new projects. Gulp ready!",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-imagemin": "^4.1.0",
+    "gulp-clean": "^0.4.0"
   },
   "devDependencies": {
-    "browser-sync": "^1.5.2",
-    "gulp": ">=3.5.0",
-    "gulp-concat": ">=2.1.7",
-    "gulp-less": ">=1.2.0",
-    "gulp-minify-css": ">=0.2.0",
-    "gulp-plumber": ">=0.5.6",
-    "gulp-rename": ">=0.2.2",
-    "gulp-uglify": ">=0.2.0",
-    "gulp-util": ">=2.2.13"
-  }
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0",
+    "pump": "^3.0.0"
+  },
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naweskil/html-skeleton-gulp.git"
+  },
+  "keywords": [
+    "gulp",
+    "html",
+    "skeleton",
+    "starter",
+    "npm"
+  ],
+  "author": "Natasha Kaweski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naweskil/html-skeleton-gulp/issues"
+  },
+  "homepage": "https://github.com/naweskil/html-skeleton-gulp#readme"
 }
